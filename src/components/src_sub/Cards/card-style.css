@@ -1,0 +1,62 @@
+
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+}
+
+/* font-size nopt chaning */
+.card-text {
+    font-size: 0.5rem;
+    padding: 0.2rem  0.2rem;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Abel', sans-serif;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+
+.snoppy-gif {
+    margin-left: 15px;
+    width: 100px;
+    height:100px;
+}
+.card-img-top {
+    height: 30%;
+    height: auto;
+    height: 230px;
+    transform: scale(1);
+    transform: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.sign-name {
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.home_header { 
+    padding: 1em 1em; text-align: center; text-transform: uppercase;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+@media (min-width:500px) {
+    .card-text {
+        font-size: 0.9rem;
+        padding: 0.2rem 1.9rem;
+    }
+
+    .home_header { 
+        font-size: 3em; font-weight: 700; line-height: 64px; margin: 0 0 0; 
+        margin-top: 0.3em;
+        margin-bottom: 0.3em;
+    }
+    
+    
+}
